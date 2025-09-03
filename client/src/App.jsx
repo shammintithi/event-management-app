@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Event from "./pages/Event";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
-import './App.css'
 
 function App() {
 
