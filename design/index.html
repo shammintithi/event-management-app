@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HappenHub</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">HappenHub</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="dropdown">
+        <a href="#events">Events ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="religious/religious.html">Religious & Cultural Festivals</a></li>
+          <li><a href="corporate/corporate.html">Corporate & Professional Events</a></li>
+          <li><a href="educational/educational.html">Educational Events</a></li>
+          <li><a href="wedding/wedding.html">Wedding & Engagements</a></li>
+          <li><a href="momentous/momentous.html">Momentous Occasions</a></li>
+          <li><a href="culinary/culinary.html">Culinary Carnival</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="user/user.html">Login</a></li>
+
+
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <img src="./Images/home.jpg" alt="Home Image" class="home-img">
+    <div class="hero-content">
+      <h1>Welcome to HappenHub</h1>
+      <p>Discover amazing events happening around you</p>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events">
+    <h2>Events</h2>
+    <div class="event-list" id="event-list"></div>
+    <button id="showMoreBtn">Show More</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>"HappenHub brings people together by connecting them with the best events — entertainment, education, sports, culture, and more!"</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@happenhub.com | Phone: +8801712345678</p>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
