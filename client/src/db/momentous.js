@@ -7,16 +7,19 @@ export const momentousEvents = [
     description:
       "Parade, fireworks (licensed), dignitary protocol, and grand stage performances.",
     services: ["Parade", "Fireworks", "Protocol", "Stage"],
-    image: "https://picsum.photos/seed/mom1/800/500",
+    image: "../public/images/birthday.jpg",
   },
-  {
-    id: "mom-2",
-    title: "City Day Festival",
-    date: "2025-01-06",
-    venue: "Central Square",
-    description:
-      "Multi-day fair with local artisans, cultural nights, and food courts.",
-    services: ["Fair Ops", "Cultural", "Food Courts", "Permits"],
-    image: "https://picsum.photos/seed/mom2/800/500",
-  },
+  
+{
+  id: "mom-2",
+  title: "Welcoming Party",
+  date: "2025-01-06",
+  venue: "Central Square",
+  description:
+    "A cheerful welcome party with music, decorations, games, and refreshments for all guests.",
+  services: ["Decorations", "Music", "Games", "Catering", "Permits"],
+  image: "../public/images/party.jpg", // change to your static image path
+  type: "Welcoming Party"
+}
+
 ];

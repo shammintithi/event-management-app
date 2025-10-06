@@ -1,22 +1,33 @@
+// src/data/corporate.js
 export const corporateEvents = [
   {
     id: "corp-1",
-    title: "Annual Tech Summit 2025",
-    date: "2025-11-20",
-    venue: "Grand Hyatt Ballroom",
+    title: "Product Launch Event",
+    venue: "Grand Conference Center",
     description:
-      "Keynotes, breakout tracks, expo booths, and live streaming production for 2,000+ attendees.",
-    services: ["Production", "Registration", "Expo Ops", "AV", "Livestream"],
-    image: "https://picsum.photos/seed/corp1/800/500",
+      "Launch of new products with stage setup, presentations, and live streaming.",
+    services: ["Stage", "Lighting", "Audio/Visual", "Catering"],
+    image: "../public/images/prod_launch.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
   },
   {
     id: "corp-2",
-    title: "Startup Demo Day",
-    date: "2025-06-14",
-    venue: "Innovation Hub",
+    title: "Seminar",
+    venue: "City Retreat Center",
     description:
-      "Investor lounge, pitch stage, jury management, brand design, and post-event PR.",
-    services: ["Stage", "Branding", "Investor Relations", "PR"],
-    image: "https://picsum.photos/seed/corp2/800/500",
+      "Workshops and activities for employee engagement, leadership, and teamwork.",
+    services: ["Activities", "Workshops", "Catering", "Decor"],
+    image: "../public/images/office_seminar.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
+  },
+  {
+    id: "corp-3",
+    title: "Investor Meetup",
+    venue: "Skyline Conference Hall",
+    description:
+      "Exclusive meeting with investors, presentations, and networking dinner.",
+    services: ["Audio/Visual", "Catering", "Decor", "Security"],
+    image: "../public/images/startup.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
   },
 ];

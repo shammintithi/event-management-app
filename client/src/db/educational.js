@@ -1,22 +1,36 @@
+// src/data/educational.js
 export const educationalEvents = [
   {
     id: "edu-1",
-    title: "University Convocation",
-    date: "2025-02-25",
-    venue: "Main Arena",
+    title: "Annual School Day",
+    date: "2025-03-10",
+    venue: "City High School Auditorium",
     description:
-      "Stage fabrication, graduate flow, VIP protocol, and photo booths for memories.",
-    services: ["Stage", "Logistics", "Photography", "VIP"],
-    image: "https://picsum.photos/seed/edu1/800/500",
+      "Celebration of achievements with student performances, awards ceremony, and parent-teacher meet.",
+    services: ["Stage Setup", "Lighting", "Sound System", "Awards"],
+    image: "../public/images/annual.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
   },
   {
     id: "edu-2",
-    title: "STEM Olympiad",
-    date: "2025-08-18",
-    venue: "Campus Grounds",
+    title: "Science Fair & Exhibition",
+    date: "2025-05-22",
+    venue: "Community Hall",
     description:
-      "Multi-venue coordination, judging, sponsor booths, and award night.",
-    services: ["Coordination", "Judging", "Sponsorship", "Awards"],
-    image: "https://picsum.photos/seed/edu2/800/500",
+      "Student projects and experiments displayed for parents and local community, judged by experts.",
+    services: ["Booth Setup", "Judging Panel", "Decor", "Awards"],
+    image: "../public/images/science.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
+  },
+  {
+    id: "edu-3",
+    title: "Graduation Ceremony",
+    date: "2025-12-20",
+    venue: "City College Auditorium",
+    description:
+      "Formal graduation event with speeches, certificate distribution, and photography sessions.",
+    services: ["Stage", "Photography", "Certificates", "Catering"],
+    image: "../public/images/grad.jpg",
+    bgColor: "bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50",
   },
 ];
